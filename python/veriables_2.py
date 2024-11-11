@@ -7,3 +7,30 @@ x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
 print(z)
+
+"""
+Unpack a Collection
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+"""
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+"""
+Output Variables
+The Python print() function is often used to output variables.
+"""
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+# For numbers, the + character works as a mathematical operator:
+
+x = 5
+y = 10
+print(x + y)
