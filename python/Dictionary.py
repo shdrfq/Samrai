@@ -122,7 +122,7 @@ for x in mydict.items():
 # second way to make copy of existing available dictionary 
 thisdict = {
   "brand": "Ford",
-  "model": "Mustang",
+  "model": "Mustang1",
   "year": 1964
 }
 mydict = dict(thisdict)
