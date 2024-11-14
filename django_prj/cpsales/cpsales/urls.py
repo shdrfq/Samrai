@@ -1,5 +1,5 @@
 """
-URL configuration for samrprofile project.
+URL configuration for cpsales project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,19 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from samrprofile import views
-from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index),
-    path('about/', views.about),
-    path('category/', views.category),
-    #path('category/<slug:catid>', views.categorydetail),  # it using for dynamic parameter
-    path('testimonial/', views.testimonial),
-    path('blog/', views.blog),
-    path('contact/', views.contact),
-   
-
-
 ]
