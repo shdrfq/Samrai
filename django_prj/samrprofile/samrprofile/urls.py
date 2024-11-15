@@ -28,6 +28,7 @@ urlpatterns = [
     path('testimonial/', views.testimonial),
     path('blog/', views.blog),
     path('contact/', views.contact),
+    path('load-excel/', views.load_excel_data, name='load_excel'),
    
 
 
